@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>자기 소개 페이지</title>
+
+    <style>
+        body {
+            background-color: rgb(186, 206, 195)
+        }
+
+        header,
+        footer,
+        section {
+            background-color: white;
+        }
+
+        nav>ul {
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 30px;
+        }
+
+        nav>ul>li {
+            display: inline-block;
+            margin: 30px 10px;
+        }
+
+        .nav-items {
+            color: rgb(72, 53, 124);
+
+            width: 200px;
+            height: 50px;
+        }
+
+        nav ul li:hover,
+        .my-info {
+            cursor: pointer;
+        }
+
+        .nemo {
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+            background-color: rgb(168, 197, 202);
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            font-weight: bold;
+        }
+
+        section>ul {
+            display: inline-block;
+            list-style: none;
+        }
+
+        .paragraph {
+            padding: 30px;
+        }
+
+        .title {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <div class="nemo nav-items">홈</div>
+                </li>
+                <li>
+                    <div class="nemo nav-items">자기소개</div>
+                </li>
+                <li>
+                    <div class="nemo nav-items">내사진</div>
+                </li>
+                <li>
+                    <div class="nemo nav-items">몇시에요</div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <ul>
+            <li>
+                <div class="paragraph">
+                    <span class="title">이런 것을 잘해요?</span>
+                    <br />
+                    <span class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quam libero velit,
+                        deleniti laborum recusandae omnis? Neque voluptatem quo, dolorum deleniti consequuntur culpa
+                        adipisci, sed, et atque impedit maiores? Esse?</span>
+                </div>
+            </li>
+
+            <li>
+                <div class="paragraph">
+                    <span class="title">나의 포트폴리오</span>
+                    <br />
+                    <span class="desc">
+                        <div>
+                            <a href="#">www.my.com</a>
+                            <br />
+                            <span>제 홈페이지입니다. 이곳에서 많은 개발코드를 볼 수 있습니다.</span>
+                        </div>
+                        <div>
+                            <a href="#">github.com/crong</a>
+                            <br />
+                            <span>제가 주로 개발하는 소스코드 입니다. 이곳에서 많은 부분을 확인할 수 있습니다.</span>
+                        </div>
+                    </span>
+                </div>
+            </li>
+
+            <li>
+                <div class="paragraph">
+                    <span class="title">나의 최근 프로젝트 설명</span>
+                    <br />
+                    <span class="desc">최근 만든 프로젝트는 xxx입니다. um.js 라는 자바스크립트 라이버르리를 활용한 비동기프로그래밍을 구현했습니다... Lorem ipsum
+                        dolor sit amet, consectetur adipisicing elit. Tenetur eligendi reprehenderit velit ad.
+                        Voluptates obcaecati quisquam reiciendis, quas incidunt non, quod earum repudiandae quo
+                        accusamus cum neque dolor itaque rerum.</span>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>
+            <span>crong@codesquad.kr</span>
+            <br>
+            <span>http://github.com/crong</span>
+        </p>
+    </footer>
+
+</body>
+
+</html>

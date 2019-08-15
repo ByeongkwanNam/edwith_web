@@ -1,0 +1,62 @@
+body {
+	background-color: rgb(186, 206, 195)
+}
+
+header, footer, section {
+	background-color: white;
+}
+
+nav>ul {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 30px;
+}
+
+nav>ul>li {
+	display: inline-block;
+	margin: 30px 10px;
+}
+
+.nav-items {
+	color: rgb(72, 53, 124);
+	width: 200px;
+	height: 50px;
+}
+
+nav ul li:hover, .my-info {
+	cursor: pointer;
+}
+
+.nemo {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	background-color: rgb(168, 197, 202);
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+	font-weight: bold;
+}
+
+section>ul {
+	display: inline-block;
+	list-style: none;
+}
+
+.paragraph {
+	padding: 30px;
+}
+
+.title {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.desc-depth-one {
+	padding: 0px 0 10px 0;
+}
+
+footer {
+	text-align: center;
+	padding: 10px;
+	margin-top: 20px;
+}

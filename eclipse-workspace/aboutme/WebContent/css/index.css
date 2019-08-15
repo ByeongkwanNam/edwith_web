@@ -1,0 +1,75 @@
+body {
+	background-color: rgb(186, 206, 195)
+}
+
+header, footer, section {
+	background-color: white;
+	text-align: center;
+}
+
+nav>ul {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 30px;
+}
+
+nav>ul>li {
+	display: inline-block;
+	margin: 30px 10px;
+}
+
+.nav-items {
+	color: rgb(72, 53, 124);
+	width: 200px;
+	height: 50px;
+}
+
+ul li:hover, .my-info {
+	cursor: pointer;
+}
+
+.nemo {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	background-color: rgb(168, 197, 202);
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+	font-weight: bold;
+}
+
+span.my-info-title {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+article.intro {
+	padding-top: 50px;
+}
+
+article.middle {
+	display: table;
+	margin: 0 auto;
+	border-spacing: 25px 10px;
+}
+
+article>.my-info {
+	color: white;
+	font-size: 20px;
+	width: 130px;
+	height: 130px;
+}
+
+article.outer {
+	padding: 10px 0px 20px 0px;
+}
+
+img {
+	width: 720px;
+	height: 720px;
+}
+
+footer {
+	padding: 10px;
+	margin-top: 20px;
+}
